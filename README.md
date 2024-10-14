@@ -1,29 +1,51 @@
-# Machine Learning Projects
+# Machine Learning Practice Projects
 
-This repository contains a collection of machine learning concepts, each presented with its own dataset and a corresponding Jupyter Notebook (`.ipynb`) file. The purpose of this folder is to demonstrate the application of various machine learning algorithms and techniques on real-world datasets.
+This repository contains a collection of machine learning practice projects. Each project folder focuses on a specific machine learning concept, with a dataset and a Jupyter Notebook (`.ipynb`) file that demonstrates the concept in practice.
 
 ## Folder Structure
 
-Each subfolder corresponds to a specific machine learning concept or technique. Within each subfolder, you will find:
-- A dataset file (`.csv`).
-- A Jupyter Notebook (`.ipynb`) that explains and demonstrates the application of the machine learning concept on the dataset.
+Each folder corresponds to a machine learning concept, with the following structure:
+- A dataset file (e.g., `.csv`).
+- A Jupyter Notebook (`.ipynb`) that walks through the implementation of the machine learning technique.
 
-## Concepts Covered
+### Project Folders
 
-- **Linear Regression:** A regression algorithm that models the relationship between a dependent variable and one or more independent variables.
-- **Logistic Regression:** A classification algorithm used when the dependent variable is categorical.
-- **Decision Trees:** A non-parametric supervised learning method used for classification and regression.
-- **Support Vector Machines (SVM):** A supervised learning model used for classification and regression tasks.
-- **K-Nearest Neighbors (KNN):** A simple, instance-based learning algorithm used for both classification and regression.
-- **Random Forest:** An ensemble learning method that builds multiple decision trees and merges them to improve performance.
-- **K-Means Clustering:** An unsupervised algorithm that partitions data into clusters based on feature similarity.
-- **Principal Component Analysis (PCA):** A dimensionality reduction technique that transforms high-dimensional data into fewer dimensions while retaining the most important information.
+- **Bagging:**
+  - `Bagging.ipynb` – Demonstrates the bagging ensemble method.
+  - Dataset: `wine (3).csv`
 
-## How to Run the Notebooks
+- **Boosting:**
+  - `GB_XGB_Boosting.ipynb` – Explores gradient boosting with XGBoost.
+  - `Gradient_boosting_workedin_class.ipynb` – Gradient boosting implementation from class practice.
+  - Dataset: `heart (2).csv`
 
-To run the Jupyter Notebooks, follow these steps:
+- **Decision Tree:**
+  - `Decision_Tree_RandomForest__Worked.ipynb` – Combines decision trees and random forests.
+  - `Decision_tree.ipynb` – Focuses on decision tree algorithms.
+  - Dataset: `HR-Employee-Attrition.csv`
 
-1. Clone the repository to your local machine:
+- **K-Means:**
+  - `K_Means.ipynb` – Implements K-Means clustering.
+  - Dataset: `Iris (1).csv`
+
+- **Linear Regression:**
+  - `Linear_Regression_4sep_28Aug (3).ipynb` – Linear regression practice.
+  - Dataset: `Advertising.csv`
+
+- **Logistic Regression:**
+  - `Logistic_4sep_28sug (1).ipynb` – Logistic regression practice.
+  - Dataset: `diabetes.csv`
+
+- **Random Forest:**
+  - `Decision_Tree_RandomForest (1).ipynb` – Focuses on random forest algorithm.
+  
+- **Support Vector Machines (SVM):**
+  - `SupportVectorMachines.ipynb` – Implementation of SVM for classification.
+  - Dataset: `loan_approved.csv`
+
+## How to Run
+
+1. Clone the repository:
    ```bash
    git clone <repository-url>
 
